@@ -18,14 +18,20 @@
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+  font-family: Montserrat, sans-serif;
+  letter-spacing: -0.015em;
 }
 
 .list {
   list-style: none;
 }
 
+/* Лого */
 .logo {
   color: var(--title-text-color);
+  font-family: Comfortaa, cursive;
+  font-size: 28px;
+  line-height: 1.14px;
 }
 
 .logo:hover {
@@ -35,6 +41,9 @@ body {
 
 .site-nav .link {
   color: var(--accent-color);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2px;
 }
 
 .site-nav .link:hover,
@@ -50,6 +59,11 @@ body {
 
 .hero-title {
   color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.43px;
+  text-align: center;
 }
 
 /* section */
@@ -74,6 +88,9 @@ body {
 .button {
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2px;
 }
 
 .button.primary {
