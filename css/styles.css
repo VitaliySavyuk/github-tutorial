@@ -9,7 +9,7 @@
 /* вторичный цвет фона #F5F5F5 */
 
 :root {
-  --primary-text-color: rgba (0, 0, 0, 0.3);
+  --primary-text-color: rgba (0, 0, 0, 0.8);
   --title-text-color: #000000;
   --accent-color: #18a0fb;
   --primary-white-color: #ffffff;
@@ -20,10 +20,8 @@ body {
   color: var(--primary-text-color);
   font-family: Montserrat, sans-serif;
   letter-spacing: -0.015em;
-}
-
-.list {
-  list-style: none;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 /* Лого */
@@ -32,6 +30,7 @@ body {
   font-family: Comfortaa, cursive;
   font-size: 28px;
   line-height: 1.14px;
+  text-decoration: none;
 }
 
 .logo:hover {
@@ -44,6 +43,7 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 1.2px;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -55,11 +55,14 @@ body {
   color: var(--title-text-color);
 }
 
+.list {
+  list-style: none;
+}
+
 /* Hero */
 
 .hero-title {
   color: var(--title-text-color);
-  font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 1.43px;
@@ -69,18 +72,25 @@ body {
 /* section */
 .section-title {
   color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.5px;
+  text-align: center;
 }
 
-/* feature-list */
-
-.feature-list .title {
-  color: var(--title-text-color);
+.section-description {
+  font-size: 36px;
+  line-height: 1.39;
 }
 
-/* Examples */
+/* feature-list and Examples */
 
+.feature-list .title,
 .work-list .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5px;
 }
 
 /* Button  */
@@ -91,6 +101,7 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 1.2px;
+  text-decoration: none;
 }
 
 .button.primary {
